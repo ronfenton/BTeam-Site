@@ -99,7 +99,7 @@ p {
 .char-frame{
     width:100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: min-content auto;
     grid-template-rows: auto max-content;
     grid-template-areas: "title title stats"
         "image detail detail"
@@ -152,6 +152,7 @@ p {
     font-family: 'Electrolize', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:0.8rem;
     margin:4px;
+    justify-self:right;
 }
 .char-stats-field{
     display:inline-block;
