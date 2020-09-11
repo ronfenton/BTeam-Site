@@ -1,74 +1,71 @@
 <html>
-
-<head>
+  <head>
     <title>B-Team Rule Reference Guide & House Rules</title>
+    <link href="style.css" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,400;1,600&family=Share+Tech+Mono&display=swap"
-        rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,400;1,600&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="navbar">
-        <div style="grid-area:header">
-            Run.Net FTP & BBS Client. Secured Host (34f3cc72-b144-4c89-a4cf-64a85ea33771) accessed. Persona Recognized.
-            Login Credentials Verified.<br />
-            Welcome to the B-Team, Runner.
-        </div>
-        <div class="nav-page-title">
-            select data library >
-        </div>
-        <div class="nav-pages">
-            <a href="index.html">index</a><a href="tactical.html">tac_details</a><a href="roster.html">roster</a>
-        </div>
-        <div class="nav-section-title">
-            library data indices >
-        </div>
-        <div class="nav-sections" id="nav-sections">
-
-        </div>
+      <div style="grid-area: header">
+        Run.Net FTP & BBS Client. Secured Host
+        (34f3cc72-b144-4c89-a4cf-64a85ea33771) accessed. Persona Recognized.
+        Login Credentials Verified.<br />
+        Welcome to the B-Team, Runner.
+      </div>
+      <div class="nav-page-title">select data library ></div>
+      <div class="nav-pages">
+        <a href="index.html">index</a><a href="tactical.html">tac_details</a
+        ><a href="roster.html">roster</a>
+      </div>
+      <div class="nav-section-title">library data indices ></div>
+      <div class="nav-sections" id="nav-sections"></div>
     </div>
     <div class="top">
-        <div class="chapter">
-            <h1>The Index</h1>
-            <div class="section" id="sect-roster">
-                There's not much here right now. Too tired to do the hyperlinks between pages.
-            </div>
+      <div class="chapter">
+        <h1>The Index</h1>
+        <div class="section" id="sect-roster">
+          There's not much here right now. Too tired to do the hyperlinks
+          between pages.
         </div>
+      </div>
     </div>
-</body>
-<script>
+  </body>
+  <script>
     function generateSectionAnchors() {
-        let flex = document.getElementById("nav-sections");
-        let sections = document.getElementsByTagName("h1");
-        for (i in sections) {
-            console.log(i);
-            if (sections[i].innerHTML == undefined) break;
-            let str = sections[i].innerText.replace(/[^a-zA-Z]+/g, "-");
-            let element = document.createElement("a");
-            element.setAttribute("href", `#${str}`);
-            element.innerText = sections[i].innerText;
-            sections[i].setAttribute("id", str);
-            flex.appendChild(element);
-        }
+      let flex = document.getElementById("nav-sections");
+      let sections = document.getElementsByTagName("h1");
+      for (i in sections) {
+        console.log(i);
+        if (sections[i].innerHTML == undefined) break;
+        let str = sections[i].innerText.replace(/[^a-zA-Z]+/g, "-");
+        let element = document.createElement("a");
+        element.setAttribute("href", `#${str}`);
+        element.innerText = sections[i].innerText;
+        sections[i].setAttribute("id", str);
+        flex.appendChild(element);
+      }
     }
 
     function generateCollapse() {
-        let collapse = document.getElementsByClassName("collapse-title");
-        for (i in collapse) {
-            console.log(collapse[i]);
-            if (collapse[i].innerHTML == undefined) break;
-            collapse[i].addEventListener("click", collapseToggle);
-        }
+      let collapse = document.getElementsByClassName("collapse-title");
+      for (i in collapse) {
+        console.log(collapse[i]);
+        if (collapse[i].innerHTML == undefined) break;
+        collapse[i].addEventListener("click", collapseToggle);
+      }
     }
 
     function collapseToggle(event) {
-        let container = event.target.nextElementSibling;
-        (container.hidden == true) ? container.hidden = false : container.hidden = true;
+      let container = event.target.nextElementSibling;
+      container.hidden == true
+        ? (container.hidden = false)
+        : (container.hidden = true);
     }
     generateCollapse();
     generateSectionAnchors();
-</script>
-
+  </script>
 </html>
