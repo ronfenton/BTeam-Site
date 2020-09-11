@@ -1,1248 +1,1458 @@
 <html>
-
-<head>
+  <head>
     <title>B-Team Rule Reference Guide & House Rules</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,400;1,600&family=Share+Tech+Mono&display=swap"
-        rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;1,400;1,600&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="navbar">
-        <div style="grid-area:header">
-            Run.Net FTP & BBS Client. Secured Host (34f3cc72-b144-4c89-a4cf-64a85ea33771) accessed. Persona Recognized.
-            Login Credentials Verified.<br />
-            Welcome to the B-Team, Runner.
-        </div>
-        <div class="nav-page-title">
-            select data library >
-        </div>
-        <div class="nav-pages">
-            <a href="index.html">index</a><a href="tactical.html">tac_details</a><a href="roster.html">roster</a>
-        </div>
-        <div class="nav-section-title">
-            library data indices >
-        </div>
-        <div class="nav-sections" id="nav-sections">
-
-        </div>
+      <div style="grid-area: header">
+        Run.Net FTP & BBS Client. Secured Host
+        (34f3cc72-b144-4c89-a4cf-64a85ea33771) accessed. Persona Recognized.
+        Login Credentials Verified.<br />
+        Welcome to the B-Team, Runner.
+      </div>
+      <div class="nav-page-title">select data library ></div>
+      <div class="nav-pages">
+        <a href="index.html">index</a><a href="tactical.html">tac_details</a
+        ><a href="roster.html">roster</a>
+      </div>
+      <div class="nav-section-title">library data indices ></div>
+      <div class="nav-sections" id="nav-sections"></div>
     </div>
     <div class="top">
-        <div class="chapter">
-            <!-- MATRIX: GAMEPLAY AND IN UNIVERSE -->
-            <H1>Matrix: Gameplay</H1>
-            <div class="section">
-                <h2>Matrix Elements</h2>
-                <p>Every matrix-relevant entity is represented by an Icon.</p>
-                <p>Icons within 100m or within the same host as you are automatically visible unless hidden.</p>
-                <p>
-                    The primary icon types are Persona (User + Device Combined), Device (Physical Object), File, and
-                    Host (Matrix Environment).
-                </p>
-                <p>A single character can only have one persona at any time.</p>
-                <p>
-                    Most icons are visible by default, with security, monitoring, and of course sneaky people being
-                    hidden by running silently.
-                </p>
-                <p>
-                    The appearance of an Icon is restricted by its type; Form suggests Function. Guns must look like
-                    weapons, vehicles like modes of transportation, etc. Hackers can break this rule.
-                </p>
-                <p>
-                    Commlinks will automatically hide uninteresting icons if desired, such as those far away, unrelated
-                    to the user's interests, within a PAN, or filtered.
-                </p>
-                <p>
-                    The Matrix has no concern for facing or line of sight; however users perceive most of the matrix
-                    through vision. Users are free to decide how icons out of vision appear; most commonly as HUD-like
-                    notifications.
-                </p>
-                <p>
-                    Noise between devices can be caused by Distance, Spam, Lack of Infrastructure, or even Intentional
-                    Design.
-                </p>
-                <p>If an Agent is running on the same device as a User; it forms a second persona of its own.</p>
-                <p>
-                    Marks are personal to the persona that placed them, and are placed on icons. They are small, and
-                    identifiable, but 'hidden' within the icon so marked.
-                </p>
-                <p>
-                    Marks provide access to an icon's features or data. Most marks are legal and are <em>invited</em> by
-                    the owner of the icon. Hackers abuse this by putting unsolicited marks on icons.
-                </p>
-                <p>
-                    PANs (Personal Area Networks) can be created easily to have a single device (usually a commlink,
-                    deck, or RCC) serve as a master to a number of lesser devices. This lets these other devices use the
-                    master's better statistics.
-                </p>
-                <p>If a slave is marked, the master is also marked.</p>
-            </div>
-            <div class="section">
-                <h2>Grids</h2>
-                <p>
-                    Every icon outside of a host is running on a Grid. Grids you have legal access to are defined by
-                    your Lifestyle.
-                </p>
-                <p>Devices on different grids are visible, but harder to hack.</p>
-                <p>
-                    Everyone can access the Public Grid, but this grid sucks. Most people use various Local, National,
-                    or Corporate Grids.
-                </p>
-            </div>
-            <div class="section">
-                <h2>Hosts</h2>
-                <p>
-                    Hosts are Separate from Grids; you cannot see Icons inside a Host from the Grid, or vice-versa.
-                    Basic communication still works however.
-                </p>
-                <p>Only Personas can enter Hosts; however devices can be slaved to them as WANs.</p>
-                <p>
-                    Hosts are not physically based, but matrix based, and thus suffer no noise or distance limitation to
-                    access or while inside; however any penalty to access the matrix as a whole (Public Grid,
-                    Physically-Based Noise, etc) still apply.
-                </p>
-                <p>
-                    When inside a host, you are directly connected to all devices slaved to that host and all icons
-                    inside that host; but lose connection to all Icons outside of that host, excepting only the device
-                    that is hosting your Persona and any files or programs on that device.
-                </p>
-                <p>WANs (Wide Area Networks) work as PANs, but are specifically for devices slaved to hosts.</p>
-                <p>
-                    The protection of PANs and WANs can be subverted by direct connection, forcing the device to only
-                    use its own defences.
-                </p>
-                <p>
-                    Slaved devices on your PAN lose PAN protection when you enter a host; you can't interact with them
-                    or provide them protection anymore.
-                </p>
-                <p>
-                    Typically, one can expect one host per related infrastructure or building; with occasionally a
-                    second where separation between public and private/security are required †.
-                </p>
-            </div>
-            <div class="section">
-                <h2>AR Relevant Only</h2>
-                <p>
-                    AROs (Augmented Reality Objects) are additions to the AR environment, overlaid over reality. They
-                    can take many forms from advertisements to fashion overlays and graffiti. AROs are transparent / out
-                    of the way enough to cause only minor distractions.
-                </p>
-                <p>Matrix users can create their own AROs and share them however they desire.</p>
-                <p>
-                    ARO visibility is controlled by the ARO and the Grid firstly; ARO Spam Zones can be common and AROs
-                    are frequently used to hide or mask physical phenomena, though users can hide AROs they find
-                    disruptive or annoying.
-                </p>
-                <p>
-                    Interacting with AR is limited by the user's tools. An Image Link is needed to see in AR, a Sound
-                    Link is needed to hear in AR, AR-Gloves are required to feel AROs, etc. A DNI provides all senses
-                    and feedback, while a Sim Module allows someone to experience non-standard sensations; such as those
-                    from another person or VR.
-                </p>
-                <p>AROs can also appear in VR, useful for communicating data between VR and AR users †.</p>
-                <p>
-                    While AROs are typically non-obstructive, users can voluntarily make them more intense. This is
-                    common for AR-Based entertainment events; and is how AR-Fashion and similar tools work. in these
-                    cases, AROs can be useful distractions, concealment, or tools. †
-                </p>
-            </div>
-            <div class="section">
-                <h2>VR Relevant Only</h2>
-                <p>
-                    Using VR requires a Direct Neural Interface (DNI), such as from a Datajack or Trodes, and a sim
-                    module.
-                </p>
-                <p>
-                    Icon size is guided - Persona are between dwarf and troll, devices smaller, files & programs even
-                    smaller;
-                    hosts are large.
-                </p>
-                <p>
-                    Outside of hosts, the Matrix appears as a vague projection of the world; hosts floating above in the
-                    air and sky. This is further modified by your Grid.
-                </p>
-                <p>
-                    Inside hosts can vary heavily; host design freedom rules. Fully virtual environments are possible.
-                    Despite this, Host VR interiors are entirely decorative - Icons behind 'walls' are still visible,
-                    and a Patrol IC 'on another floor' can still see you and scan you.
-                </p>
-            </div>
-            <div class="section">
-                <h2>Device Ownership</h2>
-                <p>
-                    All icons have an Owner. The owner of a device is a user or corporation, this information is stored
-                    on the device itself and a Matrix Registry with some mysterious derived identifier involving login
-                    credentials and the device's own data. All other icons are owned by a Persona, serving as a Matrix
-                    identity for the user or corporation.
-                </p>
-                <p>
-                    A Device or Host can have only one owner; however ownership authority may be deferred (and is common
-                    for Security Spiders and Riggers, and company equipment). Deferred authority has all perks of
-                    ownership, except the ability to change ownership.
-                </p>
-                <p>
-                    Stealing a device as such is difficult; an individual with high skill in hardware needs to modify a
-                    device's architecture <em>and</em> its generation of ownership credentials to a new user, a process
-                    requiring constant connection to the Matrix Registry, ensuring the entire time the device's original
-                    owner can still track or locate the device during the process.
-                </p>
-                <p>
-                    Devices used by employees are rarely fully owned by the employee, and are instead owned by the
-                    corporation employing them. As such, most employees can neither transfer ownership under duress; and
-                    killing the employee does little to prevent the owner tracking a given item.
-                </p>
-                <p>A device's ownership can be changed intentionally by the owner in a process taking only one minute.
-                </p>
-            </div>
+      <div class="chapter">
+        <!-- MATRIX: GAMEPLAY AND IN UNIVERSE -->
+        <h1>Matrix: Gameplay</h1>
+        <div class="section">
+          <h2>Matrix Elements</h2>
+          <p>Every matrix-relevant entity is represented by an Icon.</p>
+          <p>
+            Icons within 100m or within the same host as you are automatically
+            visible unless hidden.
+          </p>
+          <p>
+            The primary icon types are Persona (User + Device Combined), Device
+            (Physical Object), File, and Host (Matrix Environment).
+          </p>
+          <p>A single character can only have one persona at any time.</p>
+          <p>
+            Most icons are visible by default, with security, monitoring, and of
+            course sneaky people being hidden by running silently.
+          </p>
+          <p>
+            The appearance of an Icon is restricted by its type; Form suggests
+            Function. Guns must look like weapons, vehicles like modes of
+            transportation, etc. Hackers can break this rule.
+          </p>
+          <p>
+            Commlinks will automatically hide uninteresting icons if desired,
+            such as those far away, unrelated to the user's interests, within a
+            PAN, or filtered.
+          </p>
+          <p>
+            The Matrix has no concern for facing or line of sight; however users
+            perceive most of the matrix through vision. Users are free to decide
+            how icons out of vision appear; most commonly as HUD-like
+            notifications.
+          </p>
+          <p>
+            Noise between devices can be caused by Distance, Spam, Lack of
+            Infrastructure, or even Intentional Design.
+          </p>
+          <p>
+            If an Agent is running on the same device as a User; it forms a
+            second persona of its own.
+          </p>
+          <p>
+            Marks are personal to the persona that placed them, and are placed
+            on icons. They are small, and identifiable, but 'hidden' within the
+            icon so marked.
+          </p>
+          <p>
+            Marks provide access to an icon's features or data. Most marks are
+            legal and are <em>invited</em> by the owner of the icon. Hackers
+            abuse this by putting unsolicited marks on icons.
+          </p>
+          <p>
+            PANs (Personal Area Networks) can be created easily to have a single
+            device (usually a commlink, deck, or RCC) serve as a master to a
+            number of lesser devices. This lets these other devices use the
+            master's better statistics.
+          </p>
+          <p>If a slave is marked, the master is also marked.</p>
         </div>
-        <div class="chapter">
-            <!-- MATRIX: GENERAL MECHANICS -->
-            <h1>Matrix: Mechanics</h1>
-            <div class="section">
-                <h2>Common Interactions</h2>
-                <p>
-                    Matrix Perception is used to observe information. Roll <em>Computer + Intuition [Data
-                        Processing]</em>. Each hit lets the user ask one question with one answer like 'what is the
-                    rating of that device', 'does this icon have a databomb on it', 'is there a silently running icon
-                    within 100m', 'is that device affected by Wrapper', 'how many devices are in a given area'. Note
-                    that this <em>can</em> be used to try locate devices by narrowing an area over and over, following
-                    data-trails to their source †. This is slower and less effective than just using Trace Icon however,
-                    and icons running silently have hidden such trails †.
-                </p>
-                <p>
-                    It can also be used to actually spot a device running silently once you know there is one. This is a
-                    <em>Computer + Intuition [Data Processing]</em> vs <em>Logic + Sleaze</em> test. This will target
-                    one random silent running device;
-                    however you can limit this if you provide criteria (EG; 'that drone right there I know that's
-                    running silent' or 'a commlink / persona / etc')
-                </p>
-                <p>
-                    Send Message can be used to send a message to a different icon such as an ally's commlink. This
-                    generic action requires no test can be used for any sort of information sharing; from sending a
-                    short message (or a long paragraph if you've got a DNI!) or a file, to showing a live feed from any
-                    recording equipment.
-                </p>
-            </div>
-            <div class="section">
-                <h2>Devices and Wireless</h2>
-                <p>
-                    Most equipment has benefits when set to wireless. Without special equipment, acquiring these bonuses
-                    requires the item to be wireless enabled, making them valid targets for Matrix Perception and
-                    hacking efforts.
-                </p>
-                <p>
-                    A device can be set to run silently, this confers a -2 on all Matrix Actions performed with that
-                    device. It may also impart other small penalties to the device's use due to the added burden, at GM
-                    Discretion †.
-                </p>
-                <p>
-                    Devices that are running silently are not automatically detected by those using the Matrix in some
-                    way.
-                </p>
-                <p>If a device's wireless setting is disabled, it can only be hacked by direct physical connection.</p>
-                <p>All devices have a device rating between 1 - 6, with common items as follows.</p>
-                <ul>
-                    <li>
-                        Vehicles and Drones have a Device Rating equal to their Pilot Rating
-                    </li>
-                    <li>
-                        Cyberware has a Device Rating relative to its Grade. (Basic 2, Alpha 3, Beta 4, Delta 5)
-                    </li>
-                    <li>
-                        Smartlinks and most personal devices have a Device Rating of 2
-                    </li>
-                    <li>
-                        Most security equipment has a Device Rating of 3
-                    </li>
-                </ul>
-                <p>
-                    If the Noise in the area is greater than an item's effective† Device Rating, wireless functions
-                    cease operating.
-                </p>
-            </div>
-            <div class="section">
-                <h2>Personas</h2>
-                <p>
-                    A character may operate only one Persona at once, however deferred authority does allow control of
-                    other devices using Control Device freely †.
-                </p>
-                <p>All Personas running on the same device share their Matrix Condition Monitor with the device.</p>
-                <p>Agents can run on devices not actively projecting a Persona †.</p>
-            </div>
-            <div class="section">
-                <h2>Icons</h2>
-                <p>
-                    Unless indicated otherwise, Icons have Data Processing and Firewall attributes equal to their
-                    Rating, and Sleaze and Attack attributes equal to 0. Only Hacking Devices and Hosts have Attack and
-                    Sleaze ratings above 0.
-                </p>
-                <p>
-                    When an attribute is called for, use in this order... Attended Device User's Attribute, Device's
-                    Attribute, and if none of these exist, The Device's Rating.
-                </p>
-                <p class="example">
-                    EG; an R4 commlink owned by Bob, when asked to perform a Intuition + Firewall test, would roll Bob's
-                    Intuition + The Commlink's Firewall (4). If Bob hadn't used the commlink in ages, it would be
-                    Commlink's Rating (4) + Commlink's Firewall (4)
-                </p>
-                <p>
-                    Devices that are slaved get to use the better of their Master's or their own attributes, unless
-                    being attacked by a direct connection.
-                </p>
-            </div>
-            <div class="section">
-                <h2>Marks</h2>
-                <p>
-                    Matrix Authentication and Recognition Keys (Marks) provide access to a system. Each Mark (up to 3)
-                    provides additional valid Matrix Actions to be performed on the recipient.
-                </p>
-                <p>
-                    You can count how many marks are on you with a matrix perception hit, though you won't recognize
-                    them if you aren't familiar with the persona that put them there.
-                </p>
-                <p>
-                    Rebooting a device removes all marks, both those you have placed on others, and those from others on
-                    your own device.
-                </p>
-                <p>The owner of a device effectively always has four marks on the device.</p>
-                <p>You can only place up to three marks on a device that isn't yours.</p>
-                <p>
-                    Owners of devices or hosts can invite marks to legally receive marks from others (such as to provide
-                    access or defer authority).
-                </p>
-                <p>ICs and Hosts share their marks between themselves.</p>
-                <p>A Mark placed on a Slave also marks the Host</p>
-            </div>
-            <div class="section">
-                <h2>Ownership</h2>
-                <p>
-                    Transferring ownership of a device involuntarily requires an extended *Hardware + Logic [Mental]
-                    (24, 1 hour)* test, and the device must be online at all times.
-                </p>
-                <p>Changing ownership of a device voluntarily takes one minute.</p>
-                <p>
-                    Changing ownership of any other icon is generally impossible; however creating a copy of a file will
-                    create a copy you own and the original can then be deleted.
-                </p>
-            </div>
+        <div class="section">
+          <h2>Grids</h2>
+          <p>
+            Every icon outside of a host is running on a Grid. Grids you have
+            legal access to are defined by your Lifestyle.
+          </p>
+          <p>Devices on different grids are visible, but harder to hack.</p>
+          <p>
+            Everyone can access the Public Grid, but this grid sucks. Most
+            people use various Local, National, or Corporate Grids.
+          </p>
         </div>
-        <div class="chapter">
-            <!-- MATRIX: SPECIALISTS -->
-            <h1>Matrix: Specialists</h1>
+        <div class="section">
+          <h2>Hosts</h2>
+          <p>
+            Hosts are Separate from Grids; you cannot see Icons inside a Host
+            from the Grid, or vice-versa. Basic communication still works
+            however.
+          </p>
+          <p>
+            Only Personas can enter Hosts; however devices can be slaved to them
+            as WANs.
+          </p>
+          <p>
+            Hosts are not physically based, but matrix based, and thus suffer no
+            noise or distance limitation to access or while inside; however any
+            penalty to access the matrix as a whole (Public Grid,
+            Physically-Based Noise, etc) still apply.
+          </p>
+          <p>
+            When inside a host, you are directly connected to all devices slaved
+            to that host and all icons inside that host; but lose connection to
+            all Icons outside of that host, excepting only the device that is
+            hosting your Persona and any files or programs on that device.
+          </p>
+          <p>
+            WANs (Wide Area Networks) work as PANs, but are specifically for
+            devices slaved to hosts.
+          </p>
+          <p>
+            The protection of PANs and WANs can be subverted by direct
+            connection, forcing the device to only use its own defences.
+          </p>
+          <p>
+            Slaved devices on your PAN lose PAN protection when you enter a
+            host; you can't interact with them or provide them protection
+            anymore.
+          </p>
+          <p>
+            Typically, one can expect one host per related infrastructure or
+            building; with occasionally a second where separation between public
+            and private/security are required †.
+          </p>
+        </div>
+        <div class="section">
+          <h2>AR Relevant Only</h2>
+          <p>
+            AROs (Augmented Reality Objects) are additions to the AR
+            environment, overlaid over reality. They can take many forms from
+            advertisements to fashion overlays and graffiti. AROs are
+            transparent / out of the way enough to cause only minor
+            distractions.
+          </p>
+          <p>
+            Matrix users can create their own AROs and share them however they
+            desire.
+          </p>
+          <p>
+            ARO visibility is controlled by the ARO and the Grid firstly; ARO
+            Spam Zones can be common and AROs are frequently used to hide or
+            mask physical phenomena, though users can hide AROs they find
+            disruptive or annoying.
+          </p>
+          <p>
+            Interacting with AR is limited by the user's tools. An Image Link is
+            needed to see in AR, a Sound Link is needed to hear in AR, AR-Gloves
+            are required to feel AROs, etc. A DNI provides all senses and
+            feedback, while a Sim Module allows someone to experience
+            non-standard sensations; such as those from another person or VR.
+          </p>
+          <p>
+            AROs can also appear in VR, useful for communicating data between VR
+            and AR users †.
+          </p>
+          <p>
+            While AROs are typically non-obstructive, users can voluntarily make
+            them more intense. This is common for AR-Based entertainment events;
+            and is how AR-Fashion and similar tools work. in these cases, AROs
+            can be useful distractions, concealment, or tools. †
+          </p>
+        </div>
+        <div class="section">
+          <h2>VR Relevant Only</h2>
+          <p>
+            Using VR requires a Direct Neural Interface (DNI), such as from a
+            Datajack or Trodes, and a sim module.
+          </p>
+          <p>
+            Icon size is guided - Persona are between dwarf and troll, devices
+            smaller, files & programs even smaller; hosts are large.
+          </p>
+          <p>
+            Outside of hosts, the Matrix appears as a vague projection of the
+            world; hosts floating above in the air and sky. This is further
+            modified by your Grid.
+          </p>
+          <p>
+            Inside hosts can vary heavily; host design freedom rules. Fully
+            virtual environments are possible. Despite this, Host VR interiors
+            are entirely decorative - Icons behind 'walls' are still visible,
+            and a Patrol IC 'on another floor' can still see you and scan you.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Device Ownership</h2>
+          <p>
+            All icons have an Owner. The owner of a device is a user or
+            corporation, this information is stored on the device itself and a
+            Matrix Registry with some mysterious derived identifier involving
+            login credentials and the device's own data. All other icons are
+            owned by a Persona, serving as a Matrix identity for the user or
+            corporation.
+          </p>
+          <p>
+            A Device or Host can have only one owner; however ownership
+            authority may be deferred (and is common for Security Spiders and
+            Riggers, and company equipment). Deferred authority has all perks of
+            ownership, except the ability to change ownership.
+          </p>
+          <p>
+            Stealing a device as such is difficult; an individual with high
+            skill in hardware needs to modify a device's architecture
+            <em>and</em> its generation of ownership credentials to a new user,
+            a process requiring constant connection to the Matrix Registry,
+            ensuring the entire time the device's original owner can still track
+            or locate the device during the process.
+          </p>
+          <p>
+            Devices used by employees are rarely fully owned by the employee,
+            and are instead owned by the corporation employing them. As such,
+            most employees can neither transfer ownership under duress; and
+            killing the employee does little to prevent the owner tracking a
+            given item.
+          </p>
+          <p>
+            A device's ownership can be changed intentionally by the owner in a
+            process taking only one minute.
+          </p>
+        </div>
+      </div>
+      <div class="chapter">
+        <!-- MATRIX: GENERAL MECHANICS -->
+        <h1>Matrix: Mechanics</h1>
+        <div class="section">
+          <h2>Common Interactions</h2>
+          <p>
+            Matrix Perception is used to observe information. Roll
+            <em>Computer + Intuition [Data Processing]</em>. Each hit lets the
+            user ask one question with one answer like 'what is the rating of
+            that device', 'does this icon have a databomb on it', 'is there a
+            silently running icon within 100m', 'is that device affected by
+            Wrapper', 'how many devices are in a given area'. Note that this
+            <em>can</em> be used to try locate devices by narrowing an area over
+            and over, following data-trails to their source †. This is slower
+            and less effective than just using Trace Icon however, and icons
+            running silently have hidden such trails †.
+          </p>
+          <p>
+            It can also be used to actually spot a device running silently once
+            you know there is one. This is a
+            <em>Computer + Intuition [Data Processing]</em> vs
+            <em>Logic + Sleaze</em> test. This will target one random silent
+            running device; however you can limit this if you provide criteria
+            (EG; 'that drone right there I know that's running silent' or 'a
+            commlink / persona / etc')
+          </p>
+          <p>
+            Send Message can be used to send a message to a different icon such
+            as an ally's commlink. This generic action requires no test can be
+            used for any sort of information sharing; from sending a short
+            message (or a long paragraph if you've got a DNI!) or a file, to
+            showing a live feed from any recording equipment.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Devices and Wireless</h2>
+          <p>
+            Most equipment has benefits when set to wireless. Without special
+            equipment, acquiring these bonuses requires the item to be wireless
+            enabled, making them valid targets for Matrix Perception and hacking
+            efforts.
+          </p>
+          <p>
+            A device can be set to run silently, this confers a -2 on all Matrix
+            Actions performed with that device. It may also impart other small
+            penalties to the device's use due to the added burden, at GM
+            Discretion †.
+          </p>
+          <p>
+            Devices that are running silently are not automatically detected by
+            those using the Matrix in some way.
+          </p>
+          <p>
+            If a device's wireless setting is disabled, it can only be hacked by
+            direct physical connection.
+          </p>
+          <p>
+            All devices have a device rating between 1 - 6, with common items as
+            follows.
+          </p>
+          <ul>
+            <li>
+              Vehicles and Drones have a Device Rating equal to their Pilot
+              Rating
+            </li>
+            <li>
+              Cyberware has a Device Rating relative to its Grade. (Basic 2,
+              Alpha 3, Beta 4, Delta 5)
+            </li>
+            <li>
+              Smartlinks and most personal devices have a Device Rating of 2
+            </li>
+            <li>Most security equipment has a Device Rating of 3</li>
+          </ul>
+          <p>
+            If the Noise in the area is greater than an item's effective† Device
+            Rating, wireless functions cease operating.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Personas</h2>
+          <p>
+            A character may operate only one Persona at once, however deferred
+            authority does allow control of other devices using Control Device
+            freely †.
+          </p>
+          <p>
+            All Personas running on the same device share their Matrix Condition
+            Monitor with the device.
+          </p>
+          <p>Agents can run on devices not actively projecting a Persona †.</p>
+        </div>
+        <div class="section">
+          <h2>Icons</h2>
+          <p>
+            Unless indicated otherwise, Icons have Data Processing and Firewall
+            attributes equal to their Rating, and Sleaze and Attack attributes
+            equal to 0. Only Hacking Devices and Hosts have Attack and Sleaze
+            ratings above 0.
+          </p>
+          <p>
+            When an attribute is called for, use in this order... Attended
+            Device User's Attribute, Device's Attribute, and if none of these
+            exist, The Device's Rating.
+          </p>
+          <p class="example">
+            EG; an R4 commlink owned by Bob, when asked to perform a Intuition +
+            Firewall test, would roll Bob's Intuition + The Commlink's Firewall
+            (4). If Bob hadn't used the commlink in ages, it would be Commlink's
+            Rating (4) + Commlink's Firewall (4)
+          </p>
+          <p>
+            Devices that are slaved get to use the better of their Master's or
+            their own attributes, unless being attacked by a direct connection.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Marks</h2>
+          <p>
+            Matrix Authentication and Recognition Keys (Marks) provide access to
+            a system. Each Mark (up to 3) provides additional valid Matrix
+            Actions to be performed on the recipient.
+          </p>
+          <p>
+            You can count how many marks are on you with a matrix perception
+            hit, though you won't recognize them if you aren't familiar with the
+            persona that put them there.
+          </p>
+          <p>
+            Rebooting a device removes all marks, both those you have placed on
+            others, and those from others on your own device.
+          </p>
+          <p>
+            The owner of a device effectively always has four marks on the
+            device.
+          </p>
+          <p>
+            You can only place up to three marks on a device that isn't yours.
+          </p>
+          <p>
+            Owners of devices or hosts can invite marks to legally receive marks
+            from others (such as to provide access or defer authority).
+          </p>
+          <p>ICs and Hosts share their marks between themselves.</p>
+          <p>A Mark placed on a Slave also marks the Host</p>
+        </div>
+        <div class="section">
+          <h2>Ownership</h2>
+          <p>
+            Transferring ownership of a device involuntarily requires an
+            extended *Hardware + Logic [Mental] (24, 1 hour)* test, and the
+            device must be online at all times.
+          </p>
+          <p>Changing ownership of a device voluntarily takes one minute.</p>
+          <p>
+            Changing ownership of any other icon is generally impossible;
+            however creating a copy of a file will create a copy you own and the
+            original can then be deleted.
+          </p>
+        </div>
+      </div>
+      <div class="chapter">
+        <!-- MATRIX: SPECIALISTS -->
+        <h1>Matrix: Specialists</h1>
+        <p>
+          The rules here are of interest to specific types of matrix characters
+          or entities, such as Technomancers, Deckers, Riggers and AI. Most
+          people can ignore this.
+        </p>
+        <div class="section">
+          <h2>Overwatch</h2>
+          <p>
+            As matrix personas perform illegal actions, their Overwatch Score
+            begins to increase. For every hit rolled on any enemy resistance
+            test against an illegal action, the Persona's Overwatch Score will
+            increase by that same amount; additionally, every 15 minutes after
+            performing your first illegal action, your overwatch score increases
+            by 2D6. Deckers do not know their Overwatch Score. If Overwatch ever
+            reaches 40, Convergence will occur.
+          </p>
+          <p>
+            Convergence is a bad thing - if on a Grid, the Grid Overwatch
+            Division immediately hits your persona for 12DV Matrix Damage
+            (resistable), and force-reboots your persona, potentially causing
+            dumpshock. Your physical location is also reported to the owner of
+            the Grid you're on. If you're in a Host, you instead immediately
+            receive 3 Marks from the host and if the host hadn't already -
+            starts deploying IC. Leaving a host during Convergence causes the
+            Grid Convergence - so best to just directly leave the matrix while
+            in the host rather than leave the host first.
+          </p>
+          <p>Rebooting a device resets its Overwatch score.</p>
+        </div>
+        <div class="section">
+          <h2>IC</h2>
+          <p>
+            Intrusion Countermeasures have ratings equal to the Host's rating,
+            and perform all actions with a DP of Rating x2.
+          </p>
+          <p>
+            One IC can be deployed each combat turn by the host, and can run an
+            amount of simultaneous IC programs equal to its Host rating, but no
+            more than 1 of the same kind at any time. Disrupting an IC does not
+            prevent the Host from deploying a new one of the same type.
+          </p>
+          <div class="collapse-container">
+            <div class="collapse-title">IC Types</div>
+            <div class="collapse-content" hidden>
+              <ul>
+                <li>
+                  <em>Patrol:</em> Usually running at all times. Performs
+                  regular Matrix Perception tests to find illegal activity and
+                  marks.
+                </li>
+                <li><em>Acid:</em> Reduces Firewall or deals damage.</li>
+                <li>
+                  <em>Binder:</em> Reduces Data Processing or deals damage.
+                </li>
+                <li>
+                  <em>Black IC:</em> Link-Locks, deals damage, and causes
+                  biofeedback.
+                </li>
+                <li>
+                  <em>Blaster:</em> Deals matrix damage and causes biofeedback
+                  (stun only).
+                </li>
+                <li><em>Crash:</em> Randomly crashes programs.</li>
+                <li><em>Jammer:</em> Reduces Attack or deals damage.</li>
+                <li><em>Killer:</em> Deals matrix damage.</li>
+                <li><em>Marker:</em> Reduces Sleaze or deals damage.</li>
+                <li><em>Probe:</em> Adds marks for Host and other IC.</li>
+                <li><em>Scramble:</em> Force-Reboots at 3 marks.</li>
+                <li>
+                  <em>Sparky:</em> Deals matrix damage and causes biofeedback.
+                </li>
+                <li><em>Tar Baby:</em> Link-locks.</li>
+                <li>
+                  <em>Track:</em> Determines physical location at 2 marks.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Deckers</h2>
+          <p>
+            Deckers have multiple actions at their disposal, though require a
+            device with Sleaze or Attack attributes to perform them - Decks have
+            both, and are the most common tool for this. Decker actions fall
+            into four categories. Actions in each category use their
+            corresponding matrix attribute as a limit.
+          </p>
+          <p>
+            Data Processing actions are legal and use the device's Data
+            Processing or Device Rating as a limit. As these are legal, failed
+            actions have no consequence, and successful ones are often silent.
+          </p>
+          <div class="collapse-container">
+            <div class="collapse-title">Data Processing Actions</div>
+            <div class="collapse-content" hidden>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>Req Marks</th>
+                    <th>Action</th>
+                    <th>Skill</th>
+                    <th>Resist</th>
+                    <th style="width: 40%">Effect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Calibration</td>
+                    <td>1 per Persona</td>
+                    <td>S</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>-</td>
+                    <td>Increase initiative of personas by 1 per 2 hits.</td>
+                  </tr>
+                  <tr>
+                    <td>Change Icon</td>
+                    <td>Owner</td>
+                    <td>S</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>
+                      Change icon appearance within legal limits. Wrapper
+                      Program bypasses limit
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Edit File</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>Computer + LOG</td>
+                    <td>INT + Firewall *</td>
+                    <td>
+                      Create, Delete, Edit, or Copy any file. Protect owned
+                      files. Edit live data
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Enter / Exit Host</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Enter / Exit Host</td>
+                  </tr>
+                  <tr>
+                    <td>Grid Hop</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Legally change grids</td>
+                  </tr>
+                  <tr>
+                    <td>I Am The Firewall</td>
+                    <td>-</td>
+                    <td>C or Int. (-5)</td>
+                    <td>Computer + INT</td>
+                    <td>-</td>
+                    <td>
+                      Give [hits] bonus defense die to (Data Processing) allies
+                      using AR until next action
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Intervene</td>
+                    <td>-</td>
+                    <td>Int. (-5)</td>
+                    <td>Computer + INT</td>
+                    <td>-</td>
+                    <td>
+                      Give ally with slaved device bonus hits to defense test
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Invite Mark</td>
+                    <td>Owner</td>
+                    <td>S</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Invites a legal mark without hacking</td>
+                  </tr>
+                  <tr>
+                    <td>Jump Into Rigged Device</td>
+                    <td>3</td>
+                    <td>S or C</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>WIL + Firewall *</td>
+                    <td>Jump into Rigged Device</td>
+                  </tr>
+                  <tr>
+                    <td>Matrix Perception</td>
+                    <td>-</td>
+                    <td>S or C</td>
+                    <td>Computer + INT</td>
+                    <td>-</td>
+                    <td>
+                      For each hit, ask one question. <br />Can also be used to
+                      spot hiding icons (vs LOG + Sleaze)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Matrix Search</td>
+                    <td>-</td>
+                    <td>Var</td>
+                    <td>Computer + INT</td>
+                    <td>-</td>
+                    <td>Attempt to find information on the Matrix</td>
+                  </tr>
+                  <tr>
+                    <td>Reboot Device</td>
+                    <td>3</td>
+                    <td>C</td>
+                    <td>Computer + LOG</td>
+                    <td>WIL + Firewall *</td>
+                    <td>
+                      Forces devices to reboot. Rebooted personas suffer
+                      Dumpshock.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Send Message</td>
+                    <td>N/A or 1</td>
+                    <td>S</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Send message or file, or open live data stream.</td>
+                  </tr>
+                  <tr>
+                    <td>Switch Interface Mode</td>
+                    <td>Owner</td>
+                    <td>S</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Switch between AR and VR</td>
+                  </tr>
+                  <tr>
+                    <td>Tag</td>
+                    <td>-</td>
+                    <td>S</td>
+                    <td>Computer + Logic</td>
+                    <td>Sleaze + INT</td>
+                    <td>
+                      Tag [net hits] visible targets on same pan to give
+                      AR-bonuses to Allies;<br />Reduce vision pen by 2, one
+                      free Take Aim per turn
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Trace Icon</td>
+                    <td>2</td>
+                    <td>C</td>
+                    <td>Computer + INT</td>
+                    <td>WIL + Sleaze *</td>
+                    <td>
+                      Find physical location of target device. Updates as long
+                      as marks remain.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Trackback</td>
+                    <td>Owner</td>
+                    <td>-</td>
+                    <td>Extended<br />Computer + INT</td>
+                    <td>(10+Sleaze)</td>
+                    <td>
+                      Track a mark back to the device/persona that made it. Grid
+                      Only.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>* Resisted only by devices you do not own.</p>
+            </div>
+          </div>
+          <p>
+            Firewall actions are legal and use the device's Firewall or Device
+            Rating as a limit. As these are legal, failed actions have no
+            consequence, and successful ones are often silent.
+          </p>
+          <div class="collapse-container">
+            <div class="collapse-title">Firewall Actions</div>
+            <div class="collapse-content" hidden>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>Req Marks</th>
+                    <th>Action</th>
+                    <th>Skill</th>
+                    <th>Resist</th>
+                    <th style="width: 40%">Effect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Disarm Data Bomb</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Software + INT</td>
+                    <td>(Bomb Rating) x2</td>
+                    <td>Removes data bomb from file. Failure detonates.</td>
+                  </tr>
+                  <tr>
+                    <td>Full Matrix Defense</td>
+                    <td>OWNER</td>
+                    <td>Int. (-10)</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Add WIL to all Matrix Defense Tests for Combat Turn</td>
+                  </tr>
+                  <tr>
+                    <td>Jack Out</td>
+                    <td>OWNER</td>
+                    <td>S</td>
+                    <td>Hardware + WIL</td>
+                    <td>LOG + Attack</td>
+                    <td>
+                      Escape AR or VR in an emergency; causes Dumpshock.
+                      Resisted if Link Locked.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p>
+            Attack actions are illegal. A successful attack action informs the
+            owner the device is under attack; a failed attack action causes the
+            attacker to have to resist damage equal to the defender's net hits
+            but does not notify the owner. Attack actions use the device's
+            Attack score only as a limit.
+          </p>
+          <div class="collapse-container">
+            <div class="collapse-title">Attack Actions</div>
+            <div class="collapse-content" hidden>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>Req Marks</th>
+                    <th>Action</th>
+                    <th>Skill</th>
+                    <th>Resist</th>
+                    <th style="width: 40%">Effect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Brute Force</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>
+                      Apply mark to target; excess hits cause Matrix Damage<br />
+                      Also used to hop grids vs 4 (Local) or 6 (Global)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Crack File</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>Hacking + LOG</td>
+                    <td>(Protect Rating) x2</td>
+                    <td>Removes protection from a file</td>
+                  </tr>
+                  <tr>
+                    <td>Crash Program</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>INT + Firewall</td>
+                    <td>
+                      Target program is scrambled; cannot be restarted until
+                      device rebooted
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Data Spike</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>INT + Firewall</td>
+                    <td>
+                      Deal (Net Hits) + Attack Matrix Damage<br />Marks give
+                      extra DV
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Denial of Service</td>
+                    <td>Var</td>
+                    <td>S</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>
+                      Give [net hits]x2 penalty to device actions for combat
+                      turn.<br />Each mark spreads effect to 2 slaved devices.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Erase Mark</td>
+                    <td>3</td>
+                    <td>C</td>
+                    <td>Computer + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>Remove mark from an icon</td>
+                  </tr>
+                  <tr>
+                    <td>Jam Signals</td>
+                    <td>OWNER</td>
+                    <td>C</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>-</td>
+                    <td>
+                      Turns device into omnidirectional jammer of (Hits)
+                      strength.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Popup</td>
+                    <td>1</td>
+                    <td>S</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>
+                      Target non-VR Persona takes [net hits] penalty on all
+                      actions for combat turn<br />
+                      Also deal [net hits] Matrix Damage to target
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Squelch</td>
+                    <td>-</td>
+                    <td>S</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>INT + Firewall *</td>
+                    <td>
+                      Target device cannot send or receive messages for [net
+                      hits] minutes
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>
+                * Squelch by raw is resisted by INT + Sleaze. As most devices
+                lack a Sleaze attribute (and cannot default this to DR), and no
+                other ability uses Sleaze for resistance, assumed to be a
+                editing error. Assumed Firewall.
+              </p>
+            </div>
+          </div>
+          <p>
+            Sleaze actions are illegal. A successful sleaze action is entirely
+            unnoticed; a failed one alerts the owner, and gives the owner 1 mark
+            on the sleazing device. Sleaze actions use the device's Sleaze score
+            only as a limit.
+          </p>
+          <div class="collapse-container">
+            <div class="collapse-title">Sleaze Actions</div>
+            <div class="collapse-content" hidden>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Action</th>
+                    <th>Req Marks</th>
+                    <th>Action</th>
+                    <th>Skill</th>
+                    <th>Resist</th>
+                    <th style="width: 40%">Effect</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Check OW Score</td>
+                    <td>-</td>
+                    <td>S</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>6</td>
+                    <td>Report OW score <em>before</em> test</td>
+                  </tr>
+                  <tr>
+                    <td>Format Device</td>
+                    <td>3</td>
+                    <td>C</td>
+                    <td>Computer + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>After next reboot, target device no longer works</td>
+                  </tr>
+                  <tr>
+                    <td>GI/GO</td>
+                    <td>3</td>
+                    <td>C</td>
+                    <td>Software + LOG</td>
+                    <td>LOG + Firewall</td>
+                    <td>Rewrite a single Input -> Effect system</td>
+                  </tr>
+                  <tr>
+                    <td>Hack on the Fly</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Hacking + LOG</td>
+                    <td>INT + Firewall</td>
+                    <td>
+                      Apply mark to target; excess hits give free Matrix
+                      Perception hits<br />
+                      Also used to hop grids vs 4 (Local) or 6 (Global)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Haywire</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Cybercombat + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>
+                      Targetted Non-VR Persona loses all Wireless and PAN
+                      benefits until Rebooted.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Hide</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Electronic Warfare + INT</td>
+                    <td>INT + Data Processing</td>
+                    <td>Hide after being found while Running Silent</td>
+                  </tr>
+                  <tr>
+                    <td>Masquerade</td>
+                    <td>2/2</td>
+                    <td>C</td>
+                    <td>Hacking + INT</td>
+                    <td>LOG + Firewall</td>
+                    <td>
+                      Fool target for [net hits] minutes into thinking you are
+                      someone else<br />Requires 2 marks on both subject of
+                      personation and target
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Popup</td>
+                    <td>1</td>
+                    <td>S</td>
+                    <td>Hacking + LOG</td>
+                    <td>WIL + Firewall</td>
+                    <td>
+                      Target non-VR Persona takes [net hits] penalty on all
+                      actions for combat turn<br />
+                      Also give [net hits] Matrix Perception on target
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Set Data Bomb</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>Software + LOG</td>
+                    <td>Device Rating x2</td>
+                    <td>
+                      Sets data bomb on file or program; deals [net hits]D6
+                      damage
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Silent Running</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>
+                      Passive. When active, -2 to all actions, but not visible
+                      without Perception
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Snoop</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>Electronic Warfare + INT</td>
+                    <td>LOG + Firewall</td>
+                    <td>Intercept all matrix traffic to/from target</td>
+                  </tr>
+                  <tr>
+                    <td>Spoof Command</td>
+                    <td>1 *</td>
+                    <td>C</td>
+                    <td>Hacking + LOG</td>
+                    <td>LOG + Firewall</td>
+                    <td>Fake command to target device, from marked device.</td>
+                  </tr>
+                  <tr>
+                    <td>Subvert Infrastructure</td>
+                    <td>1 (Host)</td>
+                    <td>C</td>
+                    <td>Electronic Warfare + INT</td>
+                    <td>INT + Firewall</td>
+                    <td>
+                      Gain control of [net hits] simple devices slaved to host.
+                      <br />Maintain / Use control of all using Control Device
+                      as if marked.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Watchdog</td>
+                    <td>-</td>
+                    <td>C</td>
+                    <td>Electronic Warfare + LOG</td>
+                    <td>LOG + Firewall</td>
+                    <td>
+                      Monitor persona or device's Matrix actions as long as mark
+                      remains.<br />Can use Haywire (-10), Popup (-10), and
+                      Squelch (-5) as interrupts.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chapter">
+        <!-- MAGIC: QUICK RULES -->
+        <h1>Magic: Mechanics</h1>
+        <div class="section">
+          <h2>Spellcasting</h2>
+          <p>
+            Spells are cast using Spellcasting + Magic [Force], as a Complex
+            Action. Resisting a spell is based on the category that the spell
+            falls into.
+          </p>
+          <p>
+            After casting a spell, the caster resists drain as appropriate for
+            the spell and its drain code (Usually Force +/- X). Drain code can
+            be reduced below 2.
+          </p>
+          <p>
+            Drain Resistance is LOG + WIL for Hermetic, and CHA + WIL for
+            Shamanic. Other traditions may have a different test for resisting
+            Drain.
+          </p>
+          <p>
+            If your hits (limited by Force) are greater than your Magic, drain
+            is Physical. Otherwise, it is Stun.
+          </p>
+          <p>
+            Physical Spells can affect any physical object; Mana Spells can only
+            affect living targets on the same plane you're on.
+          </p>
+          <p>Sustained Spells infer -2 to all Spellcasting tests per spell.</p>
+          <p>
+            Reckless Spellcasting: Lets you cast spells as a Simple action, but
+            increases drain code by +3.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Targeting</h2>
+          <p>
+            LOS Spells only work on targets visible through natural or
+            essence-paid optics. Reflections & Refraction is OK; digital screens
+            are not. Vision modifiers apply as dice pool penalties.
+          </p>
+          <p>
+            T Spells require physical contact, such as performed by an unarmed
+            combat skill.
+          </p>
+          <p>
+            Area spells have a radius equal to (Force)m unless mentioned
+            otherwise.
+          </p>
+          <p>
+            Physical spells can only target things that exist in the Physical
+            World
+          </p>
+          <p>
+            Mana spells can only target living things on the same plane(s) as
+            yourself.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Spell Type Rules</h2>
+          <p>Combat</p>
+          <ul>
+            <li>
+              Direct spells are resisted by BOD (Physical) or WIL (Mana); and
+              deals damage equal to net-hits directly.
+            </li>
+            <li>
+              Indirect spells are resisted as a ranged attack, using REA + INT.
+              DV = Force + Net Hits; AP = -(Force). Damage is resisted as normal
+              (BOD + Adjusted Armour).
+            </li>
+            <li>
+              Indirect Area Spells work as Grenades with Scatter and a threshold
+              of (3). Net hits still increase damage after the (3). Hits less
+              than this reduce scatter.
+            </li>
+          </ul>
+
+          <p>Detection</p>
+          <ul>
+            <li>
+              Range for detection spells is equal to Force x MAG for standard
+              range, and Force x MAG x 10 for Extended.
+            </li>
+            <li>More Hits confers more information.</li>
+            <li>
+              Active senses are opposed by WIL + LOG [Mental] for living, (Force
+              x 2) for Magical Objects, or Object Resistance. Counterspelling
+              applies even if unaware. If multiple people are affected, each
+              rolls against the same Spellcasting Test to resist detection
+              individually.
+            </li>
+            <li>
+              Passive senses work as standard senses and permit the use of
+              Perception tests; though these tests are limited to [Force].
+            </li>
+          </ul>
+
+          <p>Health</p>
+          <ul>
+            <li>
+              Essence Loss serves as a dice pool penalty to receive Health
+              spells equal to the ceiling of (Max ESS - Current ESS).
+            </li>
+          </ul>
+
+          <p>Illusion</p>
+          <ul>
+            <li>
+              All effects are temporary and last only until the spell is no
+              longer sustained.
+            </li>
+            <li>
+              Obvious illusions fool no one and are immediately obvious.
+              Realistic illusions will need to be resisted.
+            </li>
+            <li>
+              Single Sense affects one sense only, Multi Sense affects all.
+            </li>
+            <li>
+              Illusions are immediately obvious when made on the Astral Plane,
+              and all illusions can be seen with 1 hit on an Assensing test.
+            </li>
+            <li>
+              Only one net hit is required to be a perfectly believed illusion.
+            </li>
+            <li>
+              Mana Illusions are resisted by LOG + WIL, and do not fool
+              technological sensors.
+            </li>
+            <li>
+              Physical Illusions are resisted by INT + LOG, and work on all
+              physically based sensors and senses.
+            </li>
+          </ul>
+
+          <p>Manipulation</p>
+          <ul>
+            <li>
+              Damaging spells have a DV of (Force) and 0AP, and is resisted with
+              BOD + Armour.
+            </li>
+            <li>
+              Mental spells are resisted with LOG + WIL. Record margin of
+              success; each subsequent turn the victim can take a complex action
+              to roll Logic + Willpower to generate more hits to break free,
+              once noticed.
+            </li>
+            <li>
+              Physical spells are resisted with BOD + STR or Object Resistance.
+            </li>
+          </ul>
+        </div>
+        <div class="section">
+          <h2>Counterspelling</h2>
+          <p>
+            As a free action or an interrupt (-5) action, you can provide
+            protection to yourself and up to (MAG) Allies.
+          </p>
+          <p>
+            This gives you an amount of Counterspelling Die equal to your
+            Counterspelling Skill (do not include Magic in this)
+          </p>
+          <p>
+            Any time a spell affects you or your protected allies, you can
+            allocate some of these die to give them a bonus to their resistance.
+          </p>
+          <p>
+            If multiple people are affected by the same spell, this bonus die
+            applies to everyone (eg; spending 1 die gives everyone +1 DP).
+          </p>
+          <p>
+            This pool refreshes at the beginning of the combat turn, not
+            initiative pass.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Dispelling</h2>
+          <p>
+            Make a contest of Counterspelling + MAG [Astral] vs Spell Force +
+            Caster's MAG.
+          </p>
+          <p>
+            Each net hit reduces the spell's effective hits. Once this reaches
+            0, the spell is dispelled.
+          </p>
+          <p>
+            Take Drain equal to the Drain Code of the spell being countered.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Summoning</h2>
+          <p>Each given tradition can summon 5 different spirits.</p>
+          <p>
+            The appearance of these spirits is influenced by the character's
+            tradition. A Hermetic fire spirit may appear as an elemental; a
+            Shamanic one, a Phoenix.
+          </p>
+          <p>
+            Make an opposed Summoning + MAG [Force] vs Desired Spirit's Force
+            test.
+          </p>
+          <p>
+            For each net hit, gain 1 service from the spirit. Take Drain equal
+            to 2x the Spirit's hits on the test.
+          </p>
+          <p>
+            For each 3 Force, the spirit has +1 Optional Power from its choices.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Banishing</h2>
+          <p>Banishing sends a spirit away less violently than killing it.</p>
+          <p>
+            Make an opposed Banishing + MAG [Astral] vs Spirit Force (+ master's
+            MAG if <em>Bound</em>)
+          </p>
+          <p>
+            Each net hit reduces available services by 1. If this reaches 0, the
+            spirit departs. Take drain equal to 2x the Spirit's hits on the
+            test.
+          </p>
+          <p>
+            Until the spirit departs, this Spirit can be 'summoned' to earn
+            services, even if that spirit cannot usually be controlled by that
+            tradition.
+          </p>
+        </div>
+      </div>
+      <div class="chapter">
+        <h1>Combat Quick Rules</h1>
+        <div class="section">
+          <h2>Common Combat Rolls</h2>
+          <table class="tbl-align-first">
+            <thead>
+              <tr>
+                <th style="width: 12%">Actor</th>
+                <th>Initiative</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Perception</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Metahuman</td>
+                <td>REA + INT + 1D6</td>
+                <td>Skill + AGI [Acc]</td>
+                <td>REA + INT</td>
+                <td>Perception + INT [Mental]</td>
+              </tr>
+              <tr>
+                <td>Drone or Vehicle</td>
+                <td>(Pilot x 2) + 3D6</td>
+                <td>Targeting + Pilot [Acc]</td>
+                <td>Maneouvering + Pilot [Handl]</td>
+                <td>
+                  (Electronic Warfare or Clearsight)<br />+ Pilot [Sensor]
+                </td>
+              </tr>
+              <tr>
+                <td>Operated Device or Vehicle</td>
+                <td><em>As Operator</em></td>
+                <td>AGI (Manual) or LOG (Remote)<br />+ Gunnery [Acc]</td>
+                <td>REA + INT</td>
+                <td>Electronic Warfare + INT [Sensor]</td>
+              </tr>
+              <tr>
+                <td>Virtual Reality</td>
+                <td>Data Processing + INT<br />+ 3D6 (Cold) or 4D6 (Hot)</td>
+                <td><em>Data Spike</em><br />Cybercombat + LOG [Attack]</td>
+                <td><em>Data Spike</em><br />INT + Firewall</td>
+                <td>
+                  <em>Matrix Perception</em><br />Computer + INT [Data
+                  Processing]
+                </td>
+              </tr>
+              <tr>
+                <td>Astral</td>
+                <td>(INT x2) + 2D6</td>
+                <td>
+                  <em>Astral Combat</em><br />Astral Combat + WIL [Astral or
+                  Acc]
+                </td>
+                <td><em>Astral Combat</em><br />INT + LOG</td>
+                <td>
+                  <em>Astral Perception</em><br />Assensing + INT [Astral]
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+        </div>
+        <div class="section">
+          <div class="sidebar" style="width: 275px">
+            <table class="tbl-align-first">
+              <thead>
+                <tr>
+                  <th style="width: 45%">Simple</th>
+                  <th>Def Mod</th>
+                  <th>Rounds</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SS (Single Shot)</td>
+                  <td>-</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>SA (Semi-Auto)</td>
+                  <td>-</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>BF (Burst Fire)</td>
+                  <td>-2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>FA (Full Auto)</td>
+                  <td>-5</td>
+                  <td>6</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="tbl-align-first">
+              <thead>
+                <tr>
+                  <th style="width: 45%">Complex</th>
+                  <th>Def Mod</th>
+                  <th>Rounds</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SA (Semi-Auto)</td>
+                  <td>-2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>BF (Burst Fire)</td>
+                  <td>-5</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>FA (Full Auto)</td>
+                  <td>-9</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
             <p>
-                The rules here are of interest to specific types of matrix characters or entities, such as
-                Technomancers, Deckers, Riggers and AI. Most people can ignore this.
+              <em
+                >Note; Drones and Remotely Controlled Weapons always use Complex
+                Actions.</em
+              >
             </p>
-            <div class="section">
-                <h2>Overwatch</h2>
-                <p>
-                    As matrix personas perform illegal actions, their Overwatch Score begins to increase. For every hit
-                    rolled on any enemy resistance test against an illegal action, the Persona's Overwatch Score will
-                    increase by that same amount; additionally, every 15 minutes after performing your first illegal
-                    action, your overwatch score increases by 2D6. Deckers do not know their Overwatch Score. If
-                    Overwatch ever reaches 40, Convergence will occur.
-                </p>
-                <p>
-                    Convergence is a bad thing - if on a Grid, the Grid Overwatch Division immediately hits your persona
-                    for 12DV Matrix Damage (resistable), and force-reboots your persona, potentially causing dumpshock.
-                    Your physical location is also reported to the owner of the Grid you're on. If you're in a Host, you
-                    instead immediately receive 3 Marks from the host and if the host hadn't already - starts deploying
-                    IC. Leaving a host during Convergence causes the Grid Convergence - so best to just directly leave
-                    the matrix while in the host rather than leave the host first.
-                </p>
-                <p>Rebooting a device resets its Overwatch score.</p>
-            </div>
-            <div class="section">
-                <h2>IC</h2>
-                <p>
-                    Intrusion Countermeasures have ratings equal to the Host's rating, and perform all actions with a DP
-                    of Rating x2.
-                </p>
-                <p>
-                    One IC can be deployed each combat turn by the host, and can run an amount of simultaneous IC
-                    programs equal to its Host rating, but no more than 1 of the same kind at any time. Disrupting an IC
-                    does not prevent the Host from deploying a new one of the same type.
-                </p>
-                <div class="collapse-container">
-                    <div class="collapse-title">IC Types</div>
-                    <div class="collapse-content" hidden>
-                        <ul>
-                            <li>
-                                <em>Patrol:</em> Usually running at all times. Performs regular Matrix Perception tests
-                                to
-                                find illegal activity and marks.
-                            </li>
-                            <li>
-                                <em>Acid:</em> Reduces Firewall or deals damage.
-                            </li>
-                            <li>
-                                <em>Binder:</em> Reduces Data Processing or deals damage.
-                            </li>
-                            <li>
-                                <em>Black IC:</em> Link-Locks, deals damage, and causes biofeedback.
-                            </li>
-                            <li>
-                                <em>Blaster:</em> Deals matrix damage and causes biofeedback (stun only).
-                            </li>
-                            <li>
-                                <em>Crash:</em> Randomly crashes programs.
-                            </li>
-                            <li>
-                                <em>Jammer:</em> Reduces Attack or deals damage.
-                            </li>
-                            <li>
-                                <em>Killer:</em> Deals matrix damage.
-                            </li>
-                            <li>
-                                <em>Marker:</em> Reduces Sleaze or deals damage.
-                            </li>
-                            <li>
-                                <em>Probe:</em> Adds marks for Host and other IC.
-                            </li>
-                            <li>
-                                <em>Scramble:</em> Force-Reboots at 3 marks.
-                            </li>
-                            <li>
-                                <em>Sparky:</em> Deals matrix damage and causes biofeedback.
-                            </li>
-                            <li>
-                                <em>Tar Baby:</em> Link-locks.
-                            </li>
-                            <li>
-                                <em>Track:</em> Determines physical location at 2 marks.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="section">
-                <h2>Deckers</h2>
-                <p>
-                    Deckers have multiple actions at their disposal, though require a device with Sleaze or Attack
-                    attributes to perform them - Decks have both, and are the most common tool for this. Decker actions
-                    fall into four categories. Actions in each category use their corresponding matrix attribute as a
-                    limit.
-                </p>
-                <p>
-                    Data Processing actions are legal and use the device's Data Processing or Device Rating as a limit.
-                    As these are legal, failed actions have no consequence, and successful ones are often silent.
-                </p>
-                <div class="collapse-container">
-                    <div class="collapse-title">Data Processing Actions</div>
-                    <div class="collapse-content" hidden>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Action</th>
-                                    <th>Req Marks</th>
-                                    <th>Action</th>
-                                    <th>Skill</th>
-                                    <th>Resist</th>
-                                    <th style="width:40%">Effect</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Calibration</td>
-                                    <td>1 per Persona</td>
-                                    <td>S</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>-</td>
-                                    <td>Increase initiative of personas by 1 per 2 hits.</td>
-                                </tr>
-                                <tr>
-                                    <td>Change Icon</td>
-                                    <td>Owner</td>
-                                    <td>S</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Change icon appearance within legal limits. Wrapper Program bypasses limit</td>
-                                </tr>
-                                <tr>
-                                    <td>Edit File</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>Computer + LOG</td>
-                                    <td>INT + Firewall *</td>
-                                    <td>Create, Delete, Edit, or Copy any file. Protect owned files. Edit live data</td>
-                                </tr>
-                                <tr>
-                                    <td>Enter / Exit Host</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Enter / Exit Host</td>
-                                </tr>
-                                <tr>
-                                    <td>Grid Hop</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Legally change grids</td>
-                                </tr>
-                                <tr>
-                                    <td>I Am The Firewall</td>
-                                    <td>-</td>
-                                    <td>C or Int. (-5)</td>
-                                    <td>Computer + INT</td>
-                                    <td>-</td>
-                                    <td>Give [hits] bonus defense die to (Data Processing) allies using AR until next action</td>
-                                </tr>
-                                <tr>
-                                    <td>Intervene</td>
-                                    <td>-</td>
-                                    <td>Int. (-5)</td>
-                                    <td>Computer + INT</td>
-                                    <td>-</td>
-                                    <td>Give ally with slaved device bonus hits to defense test</td>
-                                </tr>
-                                <tr>
-                                    <td>Invite Mark</td>
-                                    <td>Owner</td>
-                                    <td>S</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Invites a legal mark without hacking</td>
-                                </tr>
-                                <tr>
-                                    <td>Jump Into Rigged Device</td>
-                                    <td>3</td>
-                                    <td>S or C</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>WIL + Firewall *</td>
-                                    <td>Jump into Rigged Device</td>
-                                </tr>
-                                <tr>
-                                    <td>Matrix Perception</td>
-                                    <td>-</td>
-                                    <td>S or C</td>
-                                    <td>Computer + INT</td>
-                                    <td>-</td>
-                                    <td>For each hit, ask one question. <br />Can also be used to spot hiding icons (vs
-                                        LOG + Sleaze)</td>
-                                </tr>
-                                <tr>
-                                    <td>Matrix Search</td>
-                                    <td>-</td>
-                                    <td>Var</td>
-                                    <td>Computer + INT</td>
-                                    <td>-</td>
-                                    <td>Attempt to find information on the Matrix</td>
-                                </tr>
-                                <tr>
-                                    <td>Reboot Device</td>
-                                    <td>3</td>
-                                    <td>C</td>
-                                    <td>Computer + LOG</td>
-                                    <td>WIL + Firewall *</td>
-                                    <td>Forces devices to reboot. Rebooted personas suffer Dumpshock.</td>
-                                </tr>
-                                <tr>
-                                    <td>Send Message</td>
-                                    <td>N/A or 1</td>
-                                    <td>S</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Send message or file, or open live data stream.</td>
-                                </tr>
-                                <tr>
-                                    <td>Switch Interface Mode</td>
-                                    <td>Owner</td>
-                                    <td>S</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Switch between AR and VR</td>
-                                </tr>
-                                <tr>
-                                    <td>Tag</td>
-                                    <td>-</td>
-                                    <td>S</td>
-                                    <td>Computer + Logic</td>
-                                    <td>Sleaze + INT</td>
-                                    <td>Tag [net hits] visible targets on same pan to give AR-bonuses to Allies;<br/>Reduce vision pen by 2, one free Take Aim per turn</td>
-                                </tr>
-                                <tr>
-                                    <td>Trace Icon</td>
-                                    <td>2</td>
-                                    <td>C</td>
-                                    <td>Computer + INT</td>
-                                    <td>WIL + Sleaze *</td>
-                                    <td>Find physical location of target device. Updates as long as marks remain.</td>
-                                </tr>
-                                <tr>
-                                    <td>Trackback</td>
-                                    <td>Owner</td>
-                                    <td>-</td>
-                                    <td>Extended<br/>Computer + INT</td>
-                                    <td>(10+Sleaze)</td>
-                                    <td>Track a mark back to the device/persona that made it. Grid Only.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p>* Resisted only by devices you do not own.</p>
-                    </div>
-                </div>
-                <p>
-                    Firewall actions are legal and use the device's Firewall or Device Rating as a limit. As these are
-                    legal, failed actions have no consequence, and successful ones are often silent.
-                </p>
-                <div class="collapse-container">
-                    <div class="collapse-title">Firewall Actions</div>
-                    <div class="collapse-content" hidden>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Action</th>
-                                    <th>Req Marks</th>
-                                    <th>Action</th>
-                                    <th>Skill</th>
-                                    <th>Resist</th>
-                                    <th style="width:40%">Effect</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Disarm Data Bomb</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Software + INT</td>
-                                    <td>(Bomb Rating) x2</td>
-                                    <td>Removes data bomb from file. Failure detonates.</td>
-                                </tr>
-                                <tr>
-                                    <td>Full Matrix Defense</td>
-                                    <td>OWNER</td>
-                                    <td>Int. (-10)</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Add WIL to all Matrix Defense Tests for Combat Turn</td>
-                                </tr>
-                                <tr>
-                                    <td>Jack Out</td>
-                                    <td>OWNER</td>
-                                    <td>S</td>
-                                    <td>Hardware + WIL</td>
-                                    <td>LOG + Attack</td>
-                                    <td>Escape AR or VR in an emergency; causes Dumpshock. Resisted if Link Locked.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <p>
-                    Attack actions are illegal. A successful attack action informs the owner the device is under attack;
-                    a failed attack action causes the attacker to have to resist damage equal to the defender's net hits
-                    but does not notify the owner. Attack actions use the device's Attack score only as a limit.
-                </p>
-                <div class="collapse-container">
-                    <div class="collapse-title">Attack Actions</div>
-                    <div class="collapse-content" hidden>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Action</th>
-                                    <th>Req Marks</th>
-                                    <th>Action</th>
-                                    <th>Skill</th>
-                                    <th>Resist</th>
-                                    <th style="width:40%">Effect</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Brute Force</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Apply mark to target; excess hits cause Matrix Damage<br />
-                                        Also used to hop grids vs 4 (Local) or 6 (Global)</td>
-                                </tr>
-                                <tr>
-                                    <td>Crack File</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>Hacking + LOG</td>
-                                    <td>(Protect Rating) x2</td>
-                                    <td>Removes protection from a file</td>
-                                </tr>
-                                <tr>
-                                    <td>Crash Program</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>INT + Firewall</td>
-                                    <td>Target program is scrambled; cannot be restarted until device rebooted</td>
-                                </tr>
-                                <tr>
-                                    <td>Data Spike</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>INT + Firewall</td>
-                                    <td>Deal (Net Hits) + Attack Matrix Damage<br/>Marks give extra DV</td>
-                                </tr>
-                                <tr>
-                                    <td>Denial of Service</td>
-                                    <td>Var</td>
-                                    <td>S</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Give [net hits]x2 penalty to device actions for combat turn.<br/>Each mark spreads effect to 2 slaved devices.</td>
-                                </tr>
-                                <tr>
-                                    <td>Erase Mark</td>
-                                    <td>3</td>
-                                    <td>C</td>
-                                    <td>Computer + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Remove mark from an icon</td>
-                                </tr>
-                                <tr>
-                                    <td>Jam Signals</td>
-                                    <td>OWNER</td>
-                                    <td>C</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>-</td>
-                                    <td>Turns device into omnidirectional jammer of (Hits) strength.</td>
-                                </tr>
-                                <tr>
-                                    <td>Popup</td>
-                                    <td>1</td>
-                                    <td>S</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Target non-VR Persona takes [net hits] penalty on all actions for combat turn<br/> Also deal [net hits] Matrix Damage to target</td>
-                                </tr>
-                                <tr>
-                                    <td>Squelch</td>
-                                    <td>-</td>
-                                    <td>S</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>INT + Firewall *</td>
-                                    <td>Target device cannot send or receive messages for [net hits] minutes</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p>* Squelch by raw is resisted by INT + Sleaze. As most devices lack a Sleaze attribute (and cannot default this to DR), 
-                            and no other ability uses Sleaze for resistance, assumed to be a editing error. Assumed Firewall.
-                        </p>
-                    </div>
-                </div>
-                <p>
-                    Sleaze actions are illegal. A successful sleaze action is entirely unnoticed; a failed one alerts
-                    the owner, and gives the owner 1 mark on the sleazing device. Sleaze actions use the device's Sleaze
-                    score only as a limit.
-                </p>
-                <div class="collapse-container">
-                    <div class="collapse-title">Sleaze Actions</div>
-                    <div class="collapse-content" hidden>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Action</th>
-                                    <th>Req Marks</th>
-                                    <th>Action</th>
-                                    <th>Skill</th>
-                                    <th>Resist</th>
-                                    <th style="width:40%">Effect</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Check OW Score</td>
-                                    <td>-</td>
-                                    <td>S</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>6</td>
-                                    <td>Report OW score <em>before</em> test</td>
-                                </tr>
-                                <tr>
-                                    <td>Format Device</td>
-                                    <td>3</td>
-                                    <td>C</td>
-                                    <td>Computer + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>After next reboot, target device no longer works</td>
-                                </tr>
-                                <tr>
-                                    <td>GI/GO</td>
-                                    <td>3</td>
-                                    <td>C</td>
-                                    <td>Software + LOG</td>
-                                    <td>LOG + Firewall</td>
-                                    <td>Rewrite a single Input -> Effect system</td>
-                                </tr>
-                                <tr>
-                                    <td>Hack on the Fly</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Hacking + LOG</td>
-                                    <td>INT + Firewall</td>
-                                    <td>Apply mark to target; excess hits give free Matrix Perception hits<br />
-                                        Also used to hop grids vs 4 (Local) or 6 (Global)</td>
-                                </tr>
-                                <tr>
-                                    <td>Haywire</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Cybercombat + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Targetted Non-VR Persona loses all Wireless and PAN benefits until Rebooted.</td>
-                                </tr>
-                                <tr>
-                                    <td>Hide</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Electronic Warfare + INT</td>
-                                    <td>INT + Data Processing</td>
-                                    <td>Hide after being found while Running Silent</td>
-                                </tr>
-                                <tr>
-                                    <td>Masquerade</td>
-                                    <td>2/2</td>
-                                    <td>C</td>
-                                    <td>Hacking + INT</td>
-                                    <td>LOG + Firewall</td>
-                                    <td>Fool target for [net hits] minutes into thinking you are someone else<br/>Requires 2 marks on both subject of personation and target</td>
-                                </tr>
-                                <tr>
-                                    <td>Popup</td>
-                                    <td>1</td>
-                                    <td>S</td>
-                                    <td>Hacking + LOG</td>
-                                    <td>WIL + Firewall</td>
-                                    <td>Target non-VR Persona takes [net hits] penalty on all actions for combat turn<br/> Also give [net hits] Matrix Perception on target</td>
-                                </tr>
-                                <tr>
-                                    <td>Set Data Bomb</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>Software + LOG</td>
-                                    <td>Device Rating x2</td>
-                                    <td>Sets data bomb on file or program; deals [net hits]D6 damage</td>
-                                </tr>
-                                <tr>
-                                    <td>Silent Running</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>Passive. When active, -2 to all actions, but not visible without Perception</td>
-                                </tr>
-                                <tr>
-                                    <td>Snoop</td>
-                                    <td>1</td>
-                                    <td>C</td>
-                                    <td>Electronic Warfare + INT</td>
-                                    <td>LOG + Firewall</td>
-                                    <td>Intercept all matrix traffic to/from target
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Spoof Command</td>
-                                    <td>1 *</td>
-                                    <td>C</td>
-                                    <td>Hacking + LOG</td>
-                                    <td>LOG + Firewall</td>
-                                    <td>Fake command to target device, from marked device.</td>
-                                </tr>
-                                <tr>
-                                    <td>Subvert Infrastructure</td>
-                                    <td>1 (Host)</td>
-                                    <td>C</td>
-                                    <td>Electronic Warfare + INT</td>
-                                    <td>INT + Firewall</td>
-                                    <td>Gain control of [net hits] simple devices slaved to host. <br/>Maintain / Use control of all using Control Device as if marked.</td>
-                                </tr>
-                                <tr>
-                                    <td>Watchdog</td>
-                                    <td>-</td>
-                                    <td>C</td>
-                                    <td>Electronic Warfare + LOG</td>
-                                    <td>LOG + Firewall</td>
-                                    <td>Monitor persona or device's Matrix actions as long as mark remains.<br/>Can use Haywire (-10), Popup (-10), and Squelch (-5) as interrupts.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <h2>Firing Modes</h2>
+          <p>
+            Based on your weapon's fire types available, you've got the
+            following options. This influences rounds fired, and penalty on
+            enemy defence.
+          </p>
+          <p>Firing more than 1 round incurs a recoil penalty.</p>
+          <p>
+            You have Recoil Compensation equal to 1 + (ST/3) + Weapon's Recoil
+            Comp or 1 + Vehicle/Drone Body + Weapon's Recoil Comp. The penalty
+            is equal to Rounds Fired - Recoil Compensation.
+          </p>
+          <p>
+            The amount of rounds fired increases every action until you spend a
+            simple action not firing (such as taking aim).
+          </p>
         </div>
-        <div class="chapter">
-            <!-- MAGIC: QUICK RULES -->
-            <h1>Magic: Mechanics</h1>
-            <div class="section">
-                <h2>Spellcasting</h2>
-                <p>
-                    Spells are cast using Spellcasting + Magic [Force], as a Complex Action. Resisting a spell is based
-                    on the category that the spell falls into.
-                </p>
-                <p>
-                    After casting a spell, the caster resists drain as appropriate for the spell and its drain code
-                    (Usually Force +/- X). Drain code can be reduced below 2.
-                </p>
-                <p>
-                    Drain Resistance is LOG + WIL for Hermetic, and CHA + WIL for Shamanic. Other traditions may have a
-                    different test for resisting Drain.
-                </p>
-                <p>
-                    If your hits (limited by Force) are greater than your Magic, drain is Physical. Otherwise, it is
-                    Stun.
-                </p>
-                <p>
-                    Physical Spells can affect any physical object; Mana Spells can only affect living targets on the
-                    same plane you're on.
-                </p>
-                <p>Sustained Spells infer -2 to all Spellcasting tests per spell.</p>
-                <p>Reckless Spellcasting: Lets you cast spells as a Simple action, but increases drain code by +3.</p>
-            </div>
-            <div class="section">
-                <h2>Targeting</h2>
-                <p>
-                    LOS Spells only work on targets visible through natural or essence-paid optics. Reflections &
-                    Refraction is OK;
-                    digital screens are not. Vision modifiers apply as dice pool penalties.
-                </p>
-                <p>T Spells require physical contact, such as performed by an unarmed combat skill.</p>
-                <p>Area spells have a radius equal to (Force)m unless mentioned otherwise.</p>
-                <p>Physical spells can only target things that exist in the Physical World</p>
-                <p>Mana spells can only target living things on the same plane(s) as yourself.</p>
-            </div>
-            <div class="section">
-                <h2>Spell Type Rules</h2>
-                <p>Combat</p>
-                <ul>
-                    <li>
-                        Direct spells are resisted by BOD (Physical) or WIL (Mana); and deals damage equal to net-hits
-                        directly.
-                    </li>
-                    <li>
-                        Indirect spells are resisted as a ranged attack, using REA + INT. DV = Force + Net Hits; AP =
-                        -(Force). Damage is resisted as normal (BOD + Adjusted Armour).
-                    </li>
-                    <li>
-                        Indirect Area Spells work as Grenades with Scatter and a threshold of (3). Net hits still
-                        increase damage after the (3). Hits less than this reduce scatter.
-                    </li>
-                </ul>
-
-                <p>Detection</p>
-                <ul>
-                    <li>
-                        Range for detection spells is equal to Force x MAG for standard range, and Force x MAG x 10 for
-                        Extended.
-                    </li>
-                    <li>
-                        More Hits confers more information.
-                    </li>
-                    <li>
-                        Active senses are opposed by WIL + LOG [Mental] for living, (Force x 2) for Magical Objects, or
-                        Object Resistance. Counterspelling applies even if unaware. If multiple people are affected,
-                        each rolls against the same Spellcasting Test to resist detection individually.
-                    </li>
-                    <li>
-                        Passive senses work as standard senses and permit the use of Perception tests; though these
-                        tests are limited to [Force].
-                    </li>
-                </ul>
-
-                <p>Health</p>
-                <ul>
-                    <li>
-                        Essence Loss serves as a dice pool penalty to receive Health spells equal to the ceiling of (Max
-                        ESS - Current ESS).
-                    </li>
-                </ul>
-
-                <p>Illusion</p>
-                <ul>
-                    <li>
-                        All effects are temporary and last only until the spell is no longer sustained.
-                    </li>
-                    <li>
-                        Obvious illusions fool no one and are immediately obvious. Realistic illusions will need to be
-                        resisted.
-                    </li>
-                    <li>
-                        Single Sense affects one sense only, Multi Sense affects all.
-                    </li>
-                    <li>
-                        Illusions are immediately obvious when made on the Astral Plane, and all illusions can be seen
-                        with 1 hit on an Assensing test.
-                    </li>
-                    <li>
-                        Only one net hit is required to be a perfectly believed illusion.
-                    </li>
-                    <li>
-                        Mana Illusions are resisted by LOG + WIL, and do not fool technological sensors.
-                    </li>
-                    <li>
-                        Physical Illusions are resisted by INT + LOG, and work on all physically based sensors and
-                        senses.
-                    </li>
-                </ul>
-
-                <p>Manipulation</p>
-                <ul>
-                    <li>
-                        Damaging spells have a DV of (Force) and 0AP, and is resisted with BOD + Armour.
-                    </li>
-                    <li>
-                        Mental spells are resisted with LOG + WIL. Record margin of success; each subsequent turn the
-                        victim can take a complex action to roll Logic + Willpower to generate more hits to break free,
-                        once noticed.
-                    </li>
-                    <li>
-                        Physical spells are resisted with BOD + STR or Object Resistance.
-                    </li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Counterspelling</h2>
-                <p>
-                    As a free action or an interrupt (-5) action, you can provide protection to yourself and up to (MAG)
-                    Allies.
-                </p>
-                <p>
-                    This gives you an amount of Counterspelling Die equal to your Counterspelling Skill (do not include
-                    Magic in this)
-                </p>
-                <p>
-                    Any time a spell affects you or your protected allies, you can allocate some of these die to give
-                    them a bonus to their resistance.
-                </p>
-                <p>
-                    If multiple people are affected by the same spell, this bonus die applies to everyone (eg; spending
-                    1
-                    die gives everyone +1 DP).
-                </p>
-                <p>This pool refreshes at the beginning of the combat turn, not initiative pass.</p>
-            </div>
-            <div class="section">
-                <h2>Dispelling</h2>
-                <p>Make a contest of Counterspelling + MAG [Astral] vs Spell Force + Caster's MAG.</p>
-                <p>Each net hit reduces the spell's effective hits. Once this reaches 0, the spell is dispelled.</p>
-                <p>Take Drain equal to the Drain Code of the spell being countered.</p>
-            </div>
-            <div class="section">
-                <h2>Summoning</h2>
-                <p>Each given tradition can summon 5 different spirits.</p>
-                <p>
-                    The appearance of these spirits is influenced by the character's tradition. A Hermetic fire spirit
-                    may appear as an elemental; a Shamanic one, a Phoenix.
-                </p>
-                <p>Make an opposed Summoning + MAG [Force] vs Desired Spirit's Force test.</p>
-                <p>
-                    For each net hit, gain 1 service from the spirit. Take Drain equal to 2x the Spirit's hits on the
-                    test.
-                </p>
-                <p>For each 3 Force, the spirit has +1 Optional Power from its choices.</p>
-            </div>
-            <div class="section">
-                <h2>Banishing</h2>
-                <p>Banishing sends a spirit away less violently than killing it.</p>
-                <p>Make an opposed Banishing + MAG [Astral] vs Spirit Force (+ master's MAG if <em>Bound</em>)</p>
-                <p>
-                    Each net hit reduces available services by 1. If this reaches 0, the spirit departs. Take drain
-                    equal to 2x the Spirit's hits on the test.
-                </p>
-                <p>
-                    Until the spirit departs, this Spirit can be 'summoned' to earn services, even if that spirit cannot
-                    usually be controlled by that tradition.
-                </p>
-            </div>
+        <div class="section">
+          <h2>Special Armour Situations</h2>
+          <h3>Hardened Armour</h3>
+          <p>
+            If the DV of an attack is less than the rating of Hardened Armour
+            (after Applying AP); the attack is entirely negated. Even if not
+            negated, the armour still provides 1 free hit per 2 points of
+            Hardened Armour (after AP) Apply Hardened Armour first in cases of
+            multiple armour sources.
+          </p>
+          <h3>Vehicle Armour</h3>
+          <p>
+            Vehicles cannot receive Stun Damage, and thus any damage less than
+            their Armor rating is negated entirely.
+          </p>
+          <h3>Immunity to Normal Weapons</h3>
+          <p>
+            Most spirits have this, granting them Hardened Armour equal to Twice
+            their Essence.
+          </p>
         </div>
-        <div class="chapter">
-            <h1>Combat Quick Rules</h1>
-            <div class="section">
-                <h2>Common Combat Rolls</h2>
-                <table class="tbl-align-first">
-                    <thead>
-                        <tr>
-                            <th style="width:12%">Actor</th>
-                            <th>Initiative</th>
-                            <th>Attack</th>
-                            <th>Defense</th>
-                            <th>Perception</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Metahuman</td>
-                            <td>REA + INT + 1D6</td>
-                            <td>Skill + AGI [Acc]</td>
-                            <td>REA + INT</td>
-                            <td>Perception + INT [Mental]</td>
-                        </tr>
-                        <tr>
-                            <td>Drone or Vehicle</td>
-                            <td>(Pilot x 2) + 3D6</td>
-                            <td>Targeting + Pilot [Acc]</td>
-                            <td>Maneouvering + Pilot [Handl]</td>
-                            <td>(Electronic Warfare or Clearsight)<br />+ Pilot [Sensor]</td>
-                        </tr>
-                        <tr>
-                            <td>Operated Device or Vehicle</td>
-                            <td><em>As Operator</em></td>
-                            <td>AGI (Manual) or LOG (Remote)<br />+ Gunnery [Acc]</td>
-                            <td>REA + INT</td>
-                            <td>Electronic Warfare + INT [Sensor]</td>
-                        </tr>
-                        <tr>
-                            <td>Virtual Reality</td>
-                            <td>Data Processing + INT<br />+ 3D6 (Cold) or 4D6 (Hot)</td>
-                            <td><em>Data Spike</em><br />Cybercombat + LOG [Attack]</td>
-                            <td><em>Data Spike</em><br />INT + Firewall</td>
-                            <td><em>Matrix Perception</em><br />Computer + INT [Data Processing]</td>
-                        </tr>
-                        <tr>
-                            <td>Astral</td>
-                            <td>(INT x2) + 2D6</td>
-                            <td><em>Astral Combat</em><br />Astral Combat + WIL [Astral or Acc]</td>
-                            <td><em>Astral Combat</em><br />INT + LOG</em></td>
-                            <td><em>Astral Perception</em><br />Assensing + INT [Astral]</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p></p>
-            </div>
-            <div class="section">
-                <div class="sidebar" style="width:275px">
-                    <table class="tbl-align-first">
-                        <thead>
-                            <tr>
-                                <th style="width:45%">Simple</th>
-                                <th>Def Mod</th>
-                                <th>Rounds</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>SS (Single Shot)</td>
-                                <td>-</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>SA (Semi-Auto)</td>
-                                <td>-</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>BF (Burst Fire)</td>
-                                <td>-2</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>FA (Full Auto)</td>
-                                <td>-5</td>
-                                <td>6</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table class="tbl-align-first">
-                        <thead>
-                            <tr>
-                                <th style="width:45%">Complex</th>
-                                <th>Def Mod</th>
-                                <th>Rounds</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>SA (Semi-Auto)</td>
-                                <td>-2</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>BF (Burst Fire)</td>
-                                <td>-5</td>
-                                <td>6</td>
-                            </tr>
-                            <tr>
-                                <td>FA (Full Auto)</td>
-                                <td>-9</td>
-                                <td>10</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p><em>Note; Drones and Remotely Controlled Weapons always use Complex Actions.</em></p>
-                </div>
-                <h2>Firing Modes</h2>
-                <p>
-                    Based on your weapon's fire types available, you've got the following options. This influences
-                    rounds
-                    fired, and penalty on enemy defence.
-                </p>
-                <p>Firing more than 1 round incurs a recoil penalty.</p>
-                <p>
-                    You have Recoil Compensation equal to 1 + (ST/3) + Weapon's Recoil Comp or 1 + Vehicle/Drone Body +
-                    Weapon's Recoil Comp. The penalty is equal to Rounds Fired - Recoil Compensation.
-                </p>
-                <p>
-                    The amount of rounds fired increases every action until you spend a simple action not firing (such
-                    as
-                    taking aim).
-                </p>
-            </div>
-            <div class="section">
-                <h2>Special Armour Situations</h2>
-                <h3>Hardened Armour</h3>
-                <p>
-                    If the DV of an attack is less than the rating of Hardened Armour (after Applying AP); the attack is
-                    entirely negated. Even if not negated, the armour still provides 1 free hit per 2 points of Hardened
-                    Armour (after AP) Apply Hardened Armour first in cases of multiple armour sources.
-                </p>
-                <h3>Vehicle Armour</h3>
-                <p>
-                    Vehicles cannot receive Stun Damage, and thus any damage less than their Armor rating is negated
-                    entirely.
-                </p>
-                <h3>Immunity to Normal Weapons</h3>
-                <p>Most spirits have this, granting them Hardened Armour equal to Twice their Essence.</p>
-            </div>
-
-
-
-        </div>
+      </div>
     </div>
-
-</body>
-<script>
+  </body>
+  <script>
     function generateSectionAnchors() {
-        let flex = document.getElementById("nav-sections");
-        let sections = document.getElementsByTagName("h1");
-        for (i in sections) {
-            console.log(i);
-            if (sections[i].innerHTML == undefined) break;
-            let str = sections[i].innerText.replace(/[^a-zA-Z]+/g, "-");
-            let element = document.createElement("a");
-            element.setAttribute("href", `#${str}`);
-            element.innerText = sections[i].innerText;
-            sections[i].setAttribute("id", str);
-            flex.appendChild(element);
-        }
+      let flex = document.getElementById("nav-sections");
+      let sections = document.getElementsByTagName("h1");
+      for (i in sections) {
+        console.log(i);
+        if (sections[i].innerHTML == undefined) break;
+        let str = sections[i].innerText.replace(/[^a-zA-Z]+/g, "-");
+        let element = document.createElement("a");
+        element.setAttribute("href", `#${str}`);
+        element.innerText = sections[i].innerText;
+        sections[i].setAttribute("id", str);
+        flex.appendChild(element);
+      }
     }
 
     function generateCollapse() {
-        let collapse = document.getElementsByClassName("collapse-title");
-        for (i in collapse) {
-            console.log(collapse[i]);
-            if (collapse[i].innerHTML == undefined) break;
-            collapse[i].addEventListener("click", collapseToggle);
-        }
+      let collapse = document.getElementsByClassName("collapse-title");
+      for (i in collapse) {
+        console.log(collapse[i]);
+        if (collapse[i].innerHTML == undefined) break;
+        collapse[i].addEventListener("click", collapseToggle);
+      }
     }
 
     function collapseToggle(event) {
-        let container = event.target.nextElementSibling;
-        (container.hidden == true) ? container.hidden = false : container.hidden = true;
+      let container = event.target.nextElementSibling;
+      container.hidden == true
+        ? (container.hidden = false)
+        : (container.hidden = true);
     }
     generateCollapse();
     generateSectionAnchors();
-</script>
-
+  </script>
 </html>
