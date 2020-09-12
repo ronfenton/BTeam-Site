@@ -131,11 +131,15 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.char-desc *:first-child {
-  margin-top: 0px;
+.char-desc * {
+  margin: 2px;
+  font-size:0.9rem;
 }
-.char-desc *:last-child {
-  margin-bottom: 0px;
+.char-desc *:first-child{
+  margin-top:0;
+}
+.char-desc *:last-child{
+  margin-bottom:0;
 }
 .char-title {
   font-family: "Electrolize", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -180,14 +184,14 @@ p {
   padding: 0px 8px;
 }
 
-.ic {
+.ic p{
   font-family: "Share Tech Mono", "Courier New", monospace;
   font-size: 0.8rem;
   color: palegreen;
 }
 
 .ic p::before {
-  content: ">>     ";
+  content: ">> ";
 }
 
 .navbar {
